@@ -2,13 +2,13 @@
 
 ## 📍 Informations d'accès
 
-### URL du dépôt GitHub (à créer)
+### URL du dépôt GitHub
 
-**URL publique** : `https://github.com/StudioMiyukini/miyukini-core-system-readme`
+**URL publique** : `https://github.com/StudioMiyukini/miyukini-core-system-public`
 
-**URL SSH** : `git@github.com:StudioMiyukini/miyukini-core-system-readme.git`
+**URL SSH** : `git@github.com:StudioMiyukini/miyukini-core-system-public.git`
 
-**URL HTTPS** : `https://github.com/StudioMiyukini/miyukini-core-system-readme.git`
+**URL HTTPS** : `https://github.com/StudioMiyukini/miyukini-core-system-public.git`
 
 ---
 
@@ -20,38 +20,16 @@ Ce dépôt contient uniquement le **README.md** du projet Miyukini Core System, 
 
 ## 🚀 Création du dépôt GitHub
 
-### Étape 1 : Créer le dépôt sur GitHub
+### État actuel
 
-1. Aller sur https://github.com/new
-2. **Repository name** : `miyukini-core-system-readme`
-3. **Description** : `README public du projet Miyukini Core System`
-4. **Visibilité** : ✅ **Public**
-5. ❌ Ne pas cocher "Initialize this repository with a README"
-6. Cliquer sur **Create repository**
+✅ **Le dépôt GitHub est créé et le code a été poussé avec succès.**
 
-### Étape 2 : Lier le dépôt local et pousser
+**URL du dépôt** : https://github.com/StudioMiyukini/miyukini-core-system-public
 
-```powershell
-cd "c:\Users\miyuk\Documents\Cursor\miyukini-core-system-readme"
-
-# Ajouter le remote GitHub
-git remote add origin https://github.com/StudioMiyukini/miyukini-core-system-readme.git
-
-# Vérifier que le README est présent
-git status
-
-# Ajouter le README
-git add README.md
-
-# Créer le commit initial
-git commit -m "Initial commit: README public Miyukini Core System"
-
-# Renommer la branche en main
-git branch -M main
-
-# Pousser vers GitHub
-git push -u origin main
-```
+Le dépôt contient :
+- README.md (copié depuis le dépôt principal)
+- ACCES_ET_SYNCHRONISATION.md (documentation)
+- sync-readme.ps1 (script de synchronisation)
 
 ---
 
@@ -118,7 +96,7 @@ miyukini-core-system-readme/
 ## 🔗 Liens utiles
 
 - **Dépôt principal (privé)** : `https://github.com/StudioMiyukini/miyukini-core-system.git`
-- **Dépôt README (public)** : `https://github.com/StudioMiyukini/miyukini-core-system-readme`
+- **Dépôt README (public)** : `https://github.com/StudioMiyukini/miyukini-core-system-public`
 
 ---
 
