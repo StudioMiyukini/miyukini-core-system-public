@@ -35,9 +35,28 @@ Le dépôt contient :
 
 ## 🔄 Synchronisation du README
 
-### Méthode manuelle
+### ⚠️ IMPORTANT : Procédure complète
 
-Quand vous modifiez le README dans le dépôt principal (`miyukini_kernel`), synchronisez-le ainsi :
+**En cas de modification du README, celui-ci doit être poussé sur les 2 dépôts :**
+
+1. **Dépôt principal (privé)** : commit et push normal dans `miyukini_kernel`
+2. **Dépôt public** : synchronisation manuelle ou via script dans `miyukini-core-system-readme`
+
+### Étape 1 : Commit et push dans le dépôt principal
+
+```powershell
+cd "c:\Users\miyuk\Documents\Cursor\miyukini_kernel"
+
+# Modifier le README.md si nécessaire
+# Puis commit et push
+git add README.md
+git commit -m "docs: mise a jour README"
+git push
+```
+
+### Étape 2 : Synchroniser le dépôt public
+
+**Méthode manuelle** :
 
 ```powershell
 cd "c:\Users\miyuk\Documents\Cursor\miyukini-core-system-readme"
@@ -88,8 +107,10 @@ miyukini-core-system-readme/
 
 - **Ce dépôt ne contient QUE le README.md** — aucun code source ni documentation technique
 - **Le dépôt principal reste privé** — seul le README est public
-- **Synchronisation manuelle** — le README doit être synchronisé manuellement ou via script après chaque modification dans le dépôt principal
-- **Pas de lien automatique** — ce dépôt est indépendant du dépôt principal
+- **⚠️ Synchronisation obligatoire** — **En cas de modification du README, celui-ci doit être poussé sur les 2 dépôts** :
+  1. Dépôt principal (`miyukini_kernel`) — commit et push normal
+  2. Dépôt public (`miyukini-core-system-readme`) — synchronisation manuelle ou via script
+- **Pas de lien automatique** — ce dépôt est indépendant du dépôt principal, la synchronisation doit être faite manuellement
 
 ---
 
